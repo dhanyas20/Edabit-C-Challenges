@@ -1,0 +1,17 @@
+//A program which returns true if we will get the prize money more than we pay in gambling if probability, prize and pay values are given 
+
+//A profitable gamble is a game that yields a positive net profit, where net profit is calculated in the following manner: net_outcome = probability_of_winning * prize - cost_of_playing
+
+//Code
+
+bool profitableGamble(float prob, int prize, float pay) {
+	return (prob * prize > pay);
+}
+
+//Sample output
+
+profitableGamble(0.2, 50, 9) -> true 
+
+profitableGamble(0.9, 1, 2) -> false 
+
+profitableGamble(0.9, 3, 2) -> true
