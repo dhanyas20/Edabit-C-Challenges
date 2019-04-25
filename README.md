@@ -1,1 +1,1 @@
-# Edabit-C-Challenges
+# Edabit-C++-Challenges
